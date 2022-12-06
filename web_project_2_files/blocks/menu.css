@@ -1,0 +1,41 @@
+.menu {
+  background: #0a2750 url("../images/background_menu.svg") no-repeat center/
+    cover;
+  padding-bottom: 100px;
+}
+.menu__title {
+  display: flex;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: white;
+  max-width: 780px;
+  justify-content: center;
+  padding-bottom: 24px;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+.menu__description {
+  font-family: "Noto serif", "Times New Roman", serif;
+  font-style: normal;
+  color: #fff;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 780px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.menu__item-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 100px;
+  column-gap: 100px;
+  margin: 0 100px 100px 100px;
+  color: #fff;
+}
