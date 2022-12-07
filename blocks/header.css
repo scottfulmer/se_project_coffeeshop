@@ -15,7 +15,6 @@
   display: flex;
   color: black;
   max-width: 729px;
-  margin: 202px 0 0 80px;
   flex-direction: column;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
@@ -66,7 +65,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  margin: 0;
+  margin: auto;
 }
 
 .header__hours {
@@ -88,5 +87,4 @@
 .header__paragraph {
   margin-top: 0;
   margin-bottom: 0;
-  align-items: flex-start;
 }
