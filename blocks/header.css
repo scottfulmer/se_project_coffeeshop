@@ -24,6 +24,7 @@
   line-height: 72px;
   position: relative;
   z-index: 2;
+  align-items: flex-start;
 }
 .header__span-accent {
   font-family: "Noto serif", "Times New Roman", serif;
@@ -32,14 +33,12 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
-  align-items: flex-start;
 }
 .header__description {
   display: flex;
   position: relative;
   z-index: 1;
   flex-direction: row;
-  align-self: center;
   padding-left: 80px;
   max-width: 683px;
   font-family: "Noto serif", "Times New Roman", serif;
@@ -56,6 +55,7 @@
   height: 586px;
   right: 5px;
   top: 124px;
+  padding-bottom: 80px;
 }
 
 .header__title-description {
@@ -78,10 +78,15 @@
   display: flex;
   justify-content: space-between;
   position: absolute;
-  align-items: flex-start;
+  align-items: flex-end;
   left: 0px;
   bottom: 40px;
   width: 100%;
   box-sizing: border-box;
   padding: 0 80px 0 80px;
+}
+.header__paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+  align-items: flex-start;
 }
