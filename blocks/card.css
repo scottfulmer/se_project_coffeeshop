@@ -28,6 +28,7 @@
   color: #fff;
   padding-bottom: 16px;
   margin: 0;
+  gap: 10px;
 }
 .card__list-item:last-child {
   padding-bottom: 0;

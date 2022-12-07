@@ -24,6 +24,8 @@
   position: relative;
   z-index: 2;
   align-items: flex-start;
+  margin-left: 0;
+  margin-right: 0;
 }
 .header__span-accent {
   font-family: "Noto serif", "Times New Roman", serif;
@@ -48,29 +50,11 @@
   margin: 0;
 }
 .header__image {
-  display: flex;
   position: absolute;
   width: 646px;
   height: 586px;
   right: 5px;
   top: 124px;
-  padding-bottom: 80px;
-}
-
-.header__title-description {
-  color: #6f6f6f;
-  font-family: "Inter";
-  font-style: normal;
-  align-self: flex-end;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  margin: auto;
-}
-
-.header__hours {
-  margin-bottom: 0;
-  margin-top: 0;
 }
 
 .header__footer {
@@ -85,6 +69,7 @@
   padding: 0 80px 0 80px;
 }
 .header__paragraph {
+  color: #838383;
   margin-top: 0;
   margin-bottom: 0;
 }

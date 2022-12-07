@@ -10,6 +10,8 @@
   border: 0;
   padding: 0;
   width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 .form__label {
   font-family: Inter, Arial, sans-serif;
@@ -19,7 +21,7 @@
   line-height: 20px;
   padding-bottom: 8px;
 }
-.form__labe:last-child {
+.form__label:last-child {
   padding-bottom: 0;
 }
 .form__input {
@@ -64,6 +66,5 @@
   background-color: #2f80ed;
   background-image: url(../images/check.svg);
   border-radius: 2px;
-  position: relative;
   margin-right: 12px;
 }
