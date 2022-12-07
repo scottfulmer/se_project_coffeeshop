@@ -34,7 +34,7 @@
   color: #2f80ed;
 }
 .header__description {
-  display: flex;
+  align-items: flex-start;
   position: relative;
   z-index: 1;
   flex-direction: row;
