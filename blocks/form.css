@@ -24,6 +24,7 @@
 .form__label:last-child {
   display: flex;
   text-align: center;
+  align-items: center;
   padding-bottom: 0;
 }
 .form__input {
