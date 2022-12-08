@@ -12,7 +12,6 @@
   line-height: 52px;
   color: white;
   max-width: 780px;
-  justify-content: center;
   padding-bottom: 24px;
   padding-top: 100px;
   margin: 0 auto;
@@ -33,7 +32,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  column-gap: 100;
   row-gap: 100px;
   color: #fff;
 }

@@ -22,6 +22,8 @@
   padding-bottom: 8px;
 }
 .form__label:last-child {
+  display: flex;
+  text-align: center;
   padding-bottom: 0;
 }
 .form__input {

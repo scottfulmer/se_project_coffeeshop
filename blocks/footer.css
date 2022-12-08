@@ -20,7 +20,6 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  justify-content: flex-end;
   padding-bottom: 20px;
 }
 .footer__list {
@@ -34,7 +33,6 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  justify-content: flex-end;
   padding-bottom: 16px;
 }
 .footer__list-item:last-child {
