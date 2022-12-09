@@ -1,6 +1,6 @@
 .card {
   max-width: 600px;
-  flex-basis: 50%;
+  flex-basis: calc(50% - 60px);
 }
 .card__title {
   font-family: Inter, Arial, sans-serif;
